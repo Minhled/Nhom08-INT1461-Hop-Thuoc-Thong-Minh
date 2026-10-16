@@ -6,7 +6,7 @@
 
 - **Mô phỏng Wokwi:** https://wokwi.com/projects/477970164539571201
 - **Repository GitHub:** sau khi tạo repository, thay dòng này bằng URL GitHub thực tế.
-- **Báo cáo:** [`docs/Bao_cao_do_an.docx`](docs/Bao_cao_do_an.docx) (nếu tệp được giữ trong repository).
+
 
 ## Chức năng chính
 
