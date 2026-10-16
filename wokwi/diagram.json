@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "author": "Nhom 8 - INT1461",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-v1",
+      "id": "esp",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd",
+      "top": -160,
+      "left": 270,
+      "attrs": {
+        "pins": "i2c"
+      }
+    },
+    {
+      "type": "wokwi-ds1307",
+      "id": "rtc",
+      "top": -20,
+      "left": 300,
+      "attrs": {
+        "initTime": "2026-10-15T07:59:50"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledA",
+      "top": 100,
+      "left": 300,
+      "attrs": {
+        "color": "red"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rA",
+      "top": 100,
+      "left": 370,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledB",
+      "top": 160,
+      "left": 300,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rB",
+      "top": 160,
+      "left": 370,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "ledC",
+      "top": 220,
+      "left": 300,
+      "attrs": {
+        "color": "blue"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "rC",
+      "top": 220,
+      "left": 370,
+      "rotate": 90,
+      "attrs": {
+        "value": "220"
+      }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "buzz",
+      "top": 300,
+      "left": 300,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnOK",
+      "top": 350,
+      "left": 90,
+      "attrs": {
+        "color": "green",
+        "label": "DA UONG"
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btnHist",
+      "top": 350,
+      "left": 190,
+      "attrs": {
+        "color": "blue",
+        "label": "LICH SU"
+      }
+    }
+  ],
+  "connections": [
+    [
+      "esp:3V3",
+      "lcd:VCC",
+      "red",
+      []
+    ],
+    [
+      "esp:GND.1",
+      "lcd:GND",
+      "black",
+      []
+    ],
+    [
+      "esp:21",
+      "lcd:SDA",
+      "green",
+      []
+    ],
+    [
+      "esp:22",
+      "lcd:SCL",
+      "blue",
+      []
+    ],
+    [
+      "esp:VIN",
+      "rtc:VCC",
+      "red",
+      []
+    ],
+    [
+      "esp:GND.1",
+      "rtc:GND",
+      "black",
+      []
+    ],
+    [
+      "esp:21",
+      "rtc:SDA",
+      "green",
+      []
+    ],
+    [
+      "esp:22",
+      "rtc:SCL",
+      "blue",
+      []
+    ],
+    [
+      "esp:18",
+      "ledA:A",
+      "green",
+      []
+    ],
+    [
+      "ledA:C",
+      "rA:1",
+      "black",
+      []
+    ],
+    [
+      "rA:2",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:19",
+      "ledB:A",
+      "green",
+      []
+    ],
+    [
+      "ledB:C",
+      "rB:1",
+      "black",
+      []
+    ],
+    [
+      "rB:2",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:23",
+      "ledC:A",
+      "green",
+      []
+    ],
+    [
+      "ledC:C",
+      "rC:1",
+      "black",
+      []
+    ],
+    [
+      "rC:2",
+      "esp:GND.1",
+      "black",
+      []
+    ],
+    [
+      "esp:32",
+      "buzz:1",
+      "green",
+      []
+    ],
+    [
+      "esp:GND.1",
+      "buzz:2",
+      "black",
+      []
+    ],
+    [
+      "esp:27",
+      "btnOK:1.l",
+      "green",
+      []
+    ],
+    [
+      "esp:GND.1",
+      "btnOK:2.l",
+      "black",
+      []
+    ],
+    [
+      "esp:26",
+      "btnHist:1.l",
+      "green",
+      []
+    ],
+    [
+      "esp:GND.1",
+      "btnHist:2.l",
+      "black",
+      []
+    ]
+  ],
+  "dependencies": {}
+}
