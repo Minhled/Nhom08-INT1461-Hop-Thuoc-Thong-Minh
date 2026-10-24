@@ -1,5 +1,4 @@
-# Hộp thuốc thông minh nhắc uống thuốc — INT1461
-
+# Hộp thuốc thông minh nhắc uống thuốc Nhóm: 08
 Họ tên: Lê Doãn Minh.
 Mã sinh viên: K23DTCN292.
 Lớp: D23TXCN06-K.
