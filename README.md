@@ -9,8 +9,7 @@ Phiên bản Arduino-ESP32/board và thư viện đang sử dụng, nếu xác �
 ## Liên kết dự án
 
 - **Mô phỏng Wokwi:** https://wokwi.com/projects/477970164539571201
-- **Repository GitHub:** sau khi tạo repository, thay dòng này bằng URL GitHub thực tế.
-
+- **Repository GitHub:**https://github.com/Minhled/Nhom08-INT1461-Hop-Thuoc-Thong-Minh
 
 ## Chức năng chính
 
