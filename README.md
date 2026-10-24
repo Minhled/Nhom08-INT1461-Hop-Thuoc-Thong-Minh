@@ -1,5 +1,10 @@
 # Hộp thuốc thông minh nhắc uống thuốc — INT1461
 
+Họ tên: Lê Doãn Minh.
+Mã sinh viên: K23DTCN292.
+Lớp: D23TXCN06-K.
+Phiên bản Arduino-ESP32/board và thư viện đang sử dụng, nếu xác định được từ cấu hình thực tế.
+
 Đồ án học phần **Xây dựng các hệ thống nhúng (INT1461)**, thực hiện trên nền tảng mô phỏng Wokwi. Hệ thống dùng ESP32 để nhắc lịch uống thuốc theo ba ngăn, hiển thị thời gian/trạng thái trên LCD và ghi nhận thao tác người dùng.
 
 ## Liên kết dự án
@@ -48,8 +53,6 @@ INT1461-Hop-Thuoc-Thong-Minh/
 ├── wokwi/
 │   └── diagram.json
 └── docs/
-    ├── Bao_cao_do_an.docx
-    ├── HUONG_DAN_NHANH.txt
     └── test-evidence/
         └── README.md
 ```
